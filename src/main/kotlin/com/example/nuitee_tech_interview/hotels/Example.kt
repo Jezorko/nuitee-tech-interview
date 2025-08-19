@@ -1,5 +1,5 @@
 package com.example.nuitee_tech_interview.hotels
 
-class Example(
+data class Example(
     var test: String,
 )
