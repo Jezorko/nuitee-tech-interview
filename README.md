@@ -1,3 +1,5 @@
+[![Run tests](https://github.com/Jezorko/nuitee-tech-interview/actions/workflows/tests.yaml/badge.svg)](https://github.com/Jezorko/nuitee-tech-interview/actions/workflows/tests.yaml)
+
 # Running locally
 
 ## Dependencies
