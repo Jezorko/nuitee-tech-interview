@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run locally" type="JetRunConfigurationType">
+    <envs>
+      <env name="profile" value="LOCAL" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.example.nuitee_tech_interview.NuiteeTechInterviewApplicationKt" />
+    <module name="nuitee-tech-interview" />
+    <shortenClasspath name="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
