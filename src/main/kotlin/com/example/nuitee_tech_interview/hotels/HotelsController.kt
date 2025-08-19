@@ -9,10 +9,11 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/hotels")
-class HotelsController(private val apiClient: CupidApiClient) {
+class HotelsController(private val apiClient: CupidApiClient, private val exampleRepository: ExampleRepository) {
 
     @GetMapping("/{hotelId}")
     fun getHotelById(@PathVariable hotelId: Long): GetHotelResponse {
+        val res = exampleRepository.findByTest("123")
         return apiClient.getHotelById(hotelId).get()
     }
 
