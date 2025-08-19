@@ -2,6 +2,12 @@
 
 # Running locally
 
+Run the following command to start the application:
+
+```shell
+./mvnw spring-boot:run
+```
+
 ## Dependencies
 
 The following dependencies must be installed in order to run the application locally:
